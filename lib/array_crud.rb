@@ -7,8 +7,8 @@ def create_an_array #creates an array with four elements
 end
 
 def add_element_to_end_of_array(array, element) #adds an element to the end of an array
-  #array << element
-  array.push(element) #also works
+  array << element
+  #array.push(element) #also works
 end
 
 def add_element_to_start_of_array(array, element)
